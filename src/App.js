@@ -35,6 +35,7 @@ const pageSize=10;
         <Router>
           <Navbar/>
         <Routes>
+        <Route exact path="/"  element={<News country="in"  pageSize={pageSize} key = "general" category="general"/>} />
         <Route exact path="/general"  element={<News country="in"  pageSize={pageSize} key = "general" category="general"/>} />
         <Route exact path="/business" element={<News country="in"  pageSize={pageSize} key = "business" category="business"/>} />
         <Route exact path="/entertainment" element={<News country="in" pageSize={pageSize} key = "entertainment"  category="entertainment"/>} />
