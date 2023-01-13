@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
-    <div>
+    <div className="fixed top-[1px]">
       <Link to="/general" className="absolute w-[52px] h-[30px] left-[305px] top-[145px] bg-[#2F9FF8] shadow-[0px 2px 20px] shadow-[rgba(0,0,0,0.04)] border-[0.2px] border-white rounded-[20px]">
         <h1 className="relative  w-[18px] h-[18px] left-[12px] top-[6px] font-[Roboto] font-normal text-[15px] leading-[18px] text-[#FFFFFF]">ALL</h1>
       </Link>

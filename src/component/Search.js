@@ -16,7 +16,8 @@ const enterthevalue =()=>{
 
   return (
 
-   <>
+   
+   <div className='fixed top-[0px]'>
    <input className='absolute w-[495px] h-[46px] left-[305px] top-[15px] bg-[rgba(47,159,248,0.04)] rounded-[4px] px-3' type="search"  placeholder="Search for News" onChange={handleOnChange}/>
       <button><img src="search.png" className='absolute w-[18px] h-[18px] left-[766px] top-[29px]' onClick={enterthevalue}/></button>
 
@@ -26,7 +27,8 @@ const enterthevalue =()=>{
     <img src="right.png" className='absolute w-[20px] h-[19px] left-[229px] top-[13px]'></img>
     </div>
     </button>
-    </>
+    </div>
+    
 
   )
 }

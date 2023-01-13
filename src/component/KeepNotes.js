@@ -17,7 +17,7 @@ export default function KeepNotes() {
   };
 
   return (
-    <div>
+    <div className="fixed">
       <textarea
         className="absolute w-[273px] h-[46px] left-[15px] top-[15px] bg-[#FFFFFF] shadow-[0px 2px 20px] shadow-[rgba(0,0,0,0.04)] rounded-[6px] px-3 py-2"
         placeholder="Keep your notes here..."

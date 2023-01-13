@@ -3,7 +3,7 @@ import React from "react";
 export default function NewsItems1(props) {
   return (
     <div>
-      <a href={props.url}><div className="relative w-[374px] h-[191px] left-[305px] top-[332px] bg-[#FFFFFF] shadow-[0px 2px 20px] shadow-[rgba(0,0,0,0.04)] rounded-[4px] mr-[22.5px] mb-2">
+      <a href={props.url}><div className="relative w-[374px] h-[191px] left-[305px] top-[384px] bg-[#FFFFFF] shadow-[0px 2px 20px] shadow-[rgba(0,0,0,0.04)] rounded-[4px] mr-[22.5px] mb-2">
         <img
           src={props.urlToImage}
           className="absolute w-[134.14px] h-[132px] left-[224.58px] top-[16px] rounded-[4px]"
@@ -28,7 +28,7 @@ export default function NewsItems1(props) {
           Read Later
         </h2>
         <h2 className="absolute w-[122.31px] h-[22px] left-[109.48px] top-[150px] font-[Roboto] font-normal text-[11px] leading-[22px] text-[#072D4B] opacity-40 pl-2">
-          {new Date(props.publishedAt).toGMTString()}
+          {new Date(props.publishedAt).toGMTString().slice(0,25)}
         </h2>
         <h2 className="absolute w-[89.95px] h-[22px] left-[23.37px] top-[150px] font-[Roboto] font-normal text-[12px] leading-[22px] text-[#072D4B] opacity-40 pr-2">
        {props.source}

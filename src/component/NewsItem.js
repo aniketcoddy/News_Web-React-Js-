@@ -12,7 +12,7 @@ export default function NewsItem(props) {
           {props.title}..
         </h2>
 
-        <h3 className="absolute w-[510.94px] h-[61px] left-[23.46px] top-[67px] font-[Roboto] font-normal text-[14px] text-[#072D4B] opacity-60 leading-[22px]">
+        <h3 className="absolute w-[510.94px] h-[61px] left-[23.46px] top-[57px] font-[Roboto] font-normal text-[14px] text-[#072D4B] opacity-60 leading-[22px]">
           {props.description}..
         </h3>
         <button className="absolute w-[16.32px] h-[16px] left-[310.68px] top-[128px]">
@@ -27,8 +27,8 @@ export default function NewsItem(props) {
         <h2 className="absolute w-[59.15px] h-[22px] left-[433.75px] top-[125px] font-[Roboto] font-medium text-[12px] leading-[22px] text-[#0768B5]">
           Read Later
         </h2>
-        <h2 className="absolute w-[142.31px] h-[22px] left-[138.79px] top-[120px] font-[Roboto] font-normal text-[12px] leading-[22px] text-[#072D4B] opacity-40">
-          {new Date(props.publishedAt).toGMTString()}
+        <h2 className="absolute w-[122.31px] h-[22px] left-[138.79px] top-[126px] font-[Roboto] font-normal text-[12px] leading-[22px] text-[#072D4B] opacity-40">
+          {new Date(props.publishedAt).toGMTString().slice(0,25)}
         </h2>
         <h2 className="absolute w-[48.95px] h-[22px] left-[23.46px] top-[125px] font-[Roboto] font-normal text-[12px] leading-[22px] text-[#072D4B] opacity-40">
           {props.source}

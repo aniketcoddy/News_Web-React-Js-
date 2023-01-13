@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Writer() {
   return (
+    <div className="fixed">
     <div className="absolute w-[285px] h-[100px] left-[1121px] top-[313px] bg-[#FFFFFF] shadow-[0px 2px 20px] shadow-[rgba(0,0,0,0.04)] rounded-[4px]">
       <img src="feather.png" className="absolute w-[24px] h-[24px] left-[15px] top-[13px]"/>
       <h1 className="absolute w-[149px] h-[18px] left-[51px] top-[16px] font-[Roboto] font-normal text-[15px] leading-[18px] text-[#072D4B]">
@@ -15,6 +16,7 @@ export default function Writer() {
           Know More
         </h1>
       </button>
+    </div>
     </div>
   );
 }
